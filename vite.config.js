@@ -5,6 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    exclude: ["react-router-dom"], // Exclude react-router-dom from optimization
+    exclude: ["react-router-dom", "react-just-parallax", "scroll-lock"], // Exclude these dependencies from optimization
   },
 });
